@@ -13,7 +13,7 @@ import org.springframework.validation.annotation.Validated;
 
 @RestController
 @RequestMapping("/forecast")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://weather-frontend-vic2.onrender.com")
 public class WeatherController {
 
     private final WeatherService weatherService;
